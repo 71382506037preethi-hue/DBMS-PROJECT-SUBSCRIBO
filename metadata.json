@@ -1,0 +1,8 @@
+{
+  "name": "Remix SUBSCRIBO",
+  "description": "Manage your subscriptions. One place. Zero hassle. Complete database-driven subscription management system with user and admin dashboards, plans, simulated payments, renewals, and DBMS analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
