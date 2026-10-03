@@ -13,7 +13,7 @@ import reportsRouter from './server/routes/reports.ts';
 import dbConsoleRouter from './server/routes/db-console.ts';
 import settingsRouter from './server/routes/settings.ts';
 
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 
 async function startServer() {
   const app = express();
